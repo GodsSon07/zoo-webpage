@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+}
+
+
+*{
+	background-color: black;
+	cursor: pointer;
+
+}
+
+
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	
+}
+
+
+
+h1{
+	font-family: fantasy;
+	font-size: 40px;
+	color: orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px inset orange;
+	width: 400px;
+	text-align: center;
+	transition: 1s;
+	-moz-box-shadow: 4px 4px 5px whitesmoke;
+	-webkit-box-shadow: 4px 4px 5px whitesmoke;
+	box-shadow: 4px 4px 5px whitesmoke;
+}
+
+h1:hover{
+	transform: scale(1.1);
+	animation-name: unset;
+	animation-duration: 1s;
+}
+
+h2{
+	font-family: fantasy;
+	font-size: 20px;
+	color: orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px inset orange;
+	width: 400px;
+	text-align: center;
+	transition: 1s;
+	-moz-box-shadow: 4px 4px 5px whitesmoke;
+	-webkit-box-shadow: 4px 4px 5px whitesmoke;
+	box-shadow: 4px 4px 5px whitesmoke;
+}
+
+h2:hover{
+	transform: scale(1.1);
+	animation-name: unset;
+	animation-duration: 1s;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.img{
+	border: 5px inset;
+}
+
+
+
+footer,ul{
+	text-align: center;
+	color: whitesmoke;
+	border: orange;
+	background-color: orange;
+	justify-content: space-evenly;
+	justify-content: space-between;
+  justify-content: space-around;
+  transition: all 1s;
+}
+
+ul:hover{
+	transform: scale(1.1);
+}
+
+li{
+	background-color: orange;
+	display:inline-block;
+  text-align: center;
+  padding: 30px;
+  justify-content: space-between;
+  justify-content: space-around;
+  transition: all 1s;
+}
+
+li:hover{
+transform: scale(1.1);
+border:2px inset black;
+box-shadow:4px 4px 5px whitesmoke ;
+}
+
